@@ -31,7 +31,7 @@ wp_enqueue_style( 'wxr-importer-import', plugins_url( 'assets/import.css', dirna
 
 $this->render_header();
 ?>
-<div class="welcome-panel">
+<div class="welcome-panel import-redux">
 	<div class="welcome-panel-content">
 		<h2><?php esc_html_e( 'Step 3: Importing', 'wordpress-importer' ) ?></h2>
 		<div id="import-status-message" class="notice notice-info"><?php esc_html_e( 'Now importing.', 'wordpress-importer' ) ?></div>
